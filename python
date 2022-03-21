@@ -1,0 +1,29 @@
+%reset -f 
+valores = int (input ('Digite a quantidade de valores:'))
+valor = []
+
+
+
+for i in range (valores):
+  valoratual = int (input('informe um valor:'))
+  valor.append(valoratual)
+print ('sua lista é: ',valor)
+
+n1 = int (input('Digite um número para ser checado na lista: '))
+n2 = int (input('Digite outro número para ser checado: '))
+
+if not n1 in valor and not n2 in valor :
+  print('Os valores não pertencem a lista')
+if not n1 in valor and n2 in valor:
+  print("O valor ",n1,"não pertence a lista")
+if not n2 in valor and n1 in valor:
+  print("O valor ",n2,"não pertence a lista")
+
+elif n1 and n2 in valor:
+  v1 = valor.index(n1)
+  v2 = valor.index(n2)
+  valor[v1] = n2
+  valor[v2] = n1
+
+  print('Os dois valores encontram-se na lista')
+  print('A lista resultante é: ',valor)
