@@ -1,0 +1,2 @@
+# Verifica-o-de-vetor
+Faça um programa no qual o usuário fornece uma quantidade (especificada por ele) de valores e armazena em um vetor. Imprima esse vetor da forma como o usuário digitou e, na sequência, faça o seguinte:  1 - Solicite ao usuário a digitação de dois valores.  2 - Encontre no vetor a primeira instância de cada um dos dois valores digitados.  3.1 - Caso algum dos valores não esteja presente no vetor, imprima uma mensagem avisando ao usuário.  3.2 - Caso encontre os dois valores, troque-os de lugar e imprima o vetor resultante.
